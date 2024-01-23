@@ -1,0 +1,46 @@
+main .product img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .discount {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+  }
