@@ -1,46 +1,142 @@
 main .product img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 
 .banner img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
 }
 
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAC926;
+}
 
-  p {
-    font-size: 12px;
-  }
+main {
+  width: 90%;
+  margin: 0 auto;
+}
 
-  h2 {
-    font-size: 24px;
-  }
+.product {
+  position: relative;
+  margin-bottom: 10px;
+}
 
-  .price {
-    font-size: 18px;
-  }
+.details-product {
+  border-top: 1px solid #ebebeb;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
 
-  .discount {
-    font-size: 16px;
-  }
 
-  .title {
-    font-size: 16px;
-  }
-  .search-bar {
-    display: flex;
-    flex-direction: column;
-  }
+.containner-truck {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+
+}
+
+
+.product i {
+  color: green
+}
+
+.info-flex-containner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-flex-container i {
+  margin-right: 5px;
+}
+
+.info-flex-container p {
+  margin: 0;
+}
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  border-radius: 7px;
+  background-color: #3021bd;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.burger-menu i {
+  vertical-align: middle;
+
+}
+
+
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Establecer tamaño y margen para los iconos en el pie de página */
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.copyright {
+  text-align: left;
+}
