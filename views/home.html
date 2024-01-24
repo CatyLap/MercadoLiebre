@@ -18,43 +18,47 @@
 
   <header>
     <!-- Contenido del encabezado -->
-    <div class="logo">
-      <!-- Logo -->
-      <img src="../public/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
-    </div>
-    <div class="search-bar">
-      <!-- Espacio para la barra de búsqueda -->
-      <div class="search-input-container">
-        <input type="text" placeholder="Buscar productos, marcas">
+    <div class="logo-search">
+        <div class="logo">
+          <!-- Logo -->
+          <img src="../public/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+        </div>
+        <div class="search-bar">
+            <!-- Espacio para la barra de búsqueda -->
+            <div class="search-input-container">
+              <input type="text" placeholder="Buscar productos, marcas">
+            </div>
+            <div class="search-icon-containner">
+              <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="info-flex-containner">
+          <!-- Texto "Compra en cuotas y sin tarjeta de crédito" -->
+         <i class="fas fa-hand-holding-usd"></i>
+          <p>Compra en cuotas y sin tarjeta de crédito</p>
       </div>
-      <div class="search-icon-containner">
-        <i class="fas fa-search"></i>
       </div>
-      
-    </div>
-    <div class="info-flex-containner">
-      <!-- Texto "Compra en cuotas y sin tarjeta de crédito" -->
-      <i class="fas fa-hand-holding-usd"></i>
-      <p>Compra en cuotas y sin tarjeta de crédito</p>
-    </div>
-    <nav>
+
+    <nav class="bar-nav">
       <!-- Barra de navegación -->
-      <ul>
+      <ul class="site">
         <li><a href="#">Ofertas</a></li>
         <li><a href="#">Tiendas Oficiales</a></li>
         <li><a href="#">Vender</a></li>
         <li><a href="#">Ayuda</a></li>
       </ul>
 
-      <ul>
+      <ul class="login-navbar">
         <li><a href="#">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
         <li><a href="#">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
         <li><a href="#">Mis Compras</a><i class="fas fa-shopping-basket"></i></li>
       </ul>
     </nav>
+    <div class="burger-menu-container">
     <div class="burger-menu">
       <i class="fas fa-bars"></i>
       </div>
+    </div>
   </header>
 
   <div class="banner">
@@ -71,63 +75,63 @@
       <div class="product">
         <img src="../public/images/img-cafetera-moulinex.jpg" alt="Cafetera">
         <div class="details-product">
-        <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+          <div class="containner-truck">
+            <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$6.770</p>
+          <p class="discount">40% OFF</p>
+          <h3 class="title">Cafetera Moulinex</h3>
         </div>
-        <p class="price">$6.770</p>
-        <p class="discount">40% OFF</p>
-        <h3 class="title">Cafetera Moulinex</h3>
-      </div>
       </div>
 
       <!-- Producto 2 -->
       <div class="product">
         <img src="../public/images/img-macbook-pro-2019.jpg" alt="MacBook">
-        <div class="details-product"></div>
-        <div class="containner-truck">
+        <div class="details-product">
+          <div class="containner-truck">
           <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$230.000</p>
+          <p class="discount">20% OFF</p>
+          <h3 class="title">MacBook Pro 2019</h3>
         </div>
-        <p class="price">$230.000</p>
-        <p class="discount">20% OFF</p>
-        <h3 class="title">MacBook Pro 2019</h3>
       </div>
-    </div>
 
       <!-- Producto 3 -->
       <div class="product">
         <img src="../public/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
-        <div class="details-product"></div>
-        <div class="containner-truck">
+        <div class="details-product">
+          <div class="containner-truck">
           <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$70.500</p>
+          <p class="discount">10% OFF</p>
+          <h3 class="title">Samsung Galaxy S10</h3>
         </div>
-        <p class="price">$70.500</p>
-        <p class="discount">10% OFF</p>
-        <h3 class="title">Samsung Galaxy S10</h3>
       </div>
-    </div>
 
       <!-- Producto 4 -->
       <div class="product">
         <img src="../public/images/img-tv-samsung-smart.jpg" alt="SmartTv">
-        <div class="details-product"></div>
-        <div class="containner-truck">
+        <div class="details-product">
+          <div class="containner-truck">
           <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$23.200</p>
+          <p class="discount">5% OFF</p>
+          <h3 class="title">SmartTv Samsung 43"</h3>
         </div>
-        <p class="price">$23.200</p>
-        <p class="discount">5% OFF</p>
-        <h3 class="title">SmartTv Samsung 43"</h3>
       </div>
-    </div>
     </section>
 
     <!-- Sección "Ofertas" -->
     <section class="offers">
-      <h2>Sección de Ofertas</h2>
+      <h2>Ofertas</h2>
 
       <!-- Producto 5 -->
       <div class="product">
         <img src="../public/images/img-cafetera-moulinex.jpg" alt="Cafetera">
-        <div class="details-product"></div>
+        <div class="details-product">
         <div class="containner-truck">
           <i class="fas fa-truck"></i>
         </div>
@@ -140,7 +144,7 @@
       <!-- Producto 6 -->
       <div class="product">
         <img src="../public/images/img-macbook-pro-2019.jpg" alt="MacBook">
-        <div class="details-product"></div>
+        <div class="details-product">
         <div class="containner-truck">
           <i class="fas fa-truck"></i>
         </div>
@@ -153,7 +157,7 @@
       <!-- Producto 7 -->
       <div class="product">
         <img src="../public/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
-        <div class="details-product"></div>
+        <div class="details-product">
         <div class="containner-truck">
           <i class="fas fa-truck"></i>
         </div>
@@ -166,7 +170,7 @@
       <!-- Producto 8 -->
       <div class="product">
         <img src="../public/images/img-tv-samsung-smart.jpg" alt="SmartTv">
-        <div class="details-product"></div>
+        <div class="details-product">
         <div class="containner-truck">
           <i class="fas fa-truck"></i>
         </div>
