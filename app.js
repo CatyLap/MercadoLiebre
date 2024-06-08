@@ -25,3 +25,12 @@ app.post('/register', (req, res) => {
     console.log(req.body); // Imprimir datos del formulario en la consola para fines didácticos
     res.redirect('/');
 });
+
+app.get('/login', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/login.html'));
+});
+app.post('/login', (req, res) => {
+    // Por ahora, solo redirigiremos a la página principal
+    console.log(req.body); // Imprimir datos del formulario en la consola para fines didácticos
+    res.redirect('/');
+});
