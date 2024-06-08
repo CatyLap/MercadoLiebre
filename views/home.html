@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,25 +19,27 @@
   <header>
     <!-- Contenido del encabezado -->
     <div class="logo-search">
-        <div class="logo">
-          <!-- Logo -->
-          <img src="/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
-        </div>
-        <div class="search-bar">
-            <!-- Espacio para la barra de búsqueda -->
-            <div class="search-input-container">
-              <input type="text" placeholder="Buscar productos, marcas">
-            </div>
-            <div class="search-icon-containner">
-              <i class="fas fa-search"></i>
-            </div>
-        </div>
-        <div class="info-flex-containner">
-          <!-- Texto "Compra en cuotas y sin tarjeta de crédito" -->
-         <i class="fas fa-hand-holding-usd"></i>
-          <p>Compra en cuotas y sin tarjeta de crédito</p>
+      <div class="logo">
+        <!-- Logo -->
+        <img src="/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
       </div>
+      <div class="search-bar">
+        <form id="searchForm" action="/" method="GET">
+          <!-- Espacio para la barra de búsqueda -->
+          <div class="search-input-container">
+            <input type="text" id="searchInput" name="q" placeholder="Buscar productos, marcas">
+          </div>
+          <div class="search-icon-container">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </form>
       </div>
+      <div class="info-flex-containner">
+        <!-- Texto "Compra en cuotas y sin tarjeta de crédito" -->
+        <i class="fas fa-hand-holding-usd"></i>
+        <p>Compra en cuotas y sin tarjeta de crédito</p>
+      </div>
+    </div>
 
     <nav class="bar-nav">
       <!-- Barra de navegación -->
@@ -55,8 +57,8 @@
       </ul>
     </nav>
     <div class="burger-menu-container">
-    <div class="burger-menu">
-      <i class="fas fa-bars"></i>
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
       </div>
     </div>
   </header>
@@ -69,10 +71,10 @@
     <!-- Contenido principal de la página -->
     <br>
     <h2>Basado en tu última visita</h2>
-  </br>
+    </br>
     <!-- Sección "Basado en tu última visita" -->
     <section class="recent-visit">
-      
+
 
       <!-- Producto 1 -->
       <div class="product">
@@ -92,7 +94,7 @@
         <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
         <div class="details-product">
           <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+            <i class="fas fa-truck"></i>
           </div>
           <p class="price">$230.000</p>
           <p class="discount">20% OFF</p>
@@ -105,7 +107,7 @@
         <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
         <div class="details-product">
           <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+            <i class="fas fa-truck"></i>
           </div>
           <p class="price">$70.500</p>
           <p class="discount">10% OFF</p>
@@ -118,7 +120,7 @@
         <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv">
         <div class="details-product">
           <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+            <i class="fas fa-truck"></i>
           </div>
           <p class="price">$23.200</p>
           <p class="discount">5% OFF</p>
@@ -130,61 +132,61 @@
     <!-- Sección "Ofertas" -->
     <br>
     <h2>Ofertas</h2>
-  </br>
+    </br>
     <section class="offers">
-      
+
 
       <!-- Producto 5 -->
       <div class="product">
         <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera">
         <div class="details-product">
-        <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+          <div class="containner-truck">
+            <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$6.770</p>
+          <p class="discount">40% OFF</p>
+          <h3 class="title">Cafetera Moulinex</h3>
         </div>
-        <p class="price">$6.770</p>
-        <p class="discount">40% OFF</p>
-        <h3 class="title">Cafetera Moulinex</h3>
       </div>
-    </div>
 
       <!-- Producto 6 -->
       <div class="product">
         <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
         <div class="details-product">
-        <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+          <div class="containner-truck">
+            <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$230.000</p>
+          <p class="discount">20% OFF</p>
+          <h3 class="title">MacBook Pro 2019</h3>
         </div>
-        <p class="price">$230.000</p>
-        <p class="discount">20% OFF</p>
-        <h3 class="title">MacBook Pro 2019</h3>
       </div>
-    </div>
 
       <!-- Producto 7 -->
       <div class="product">
         <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
         <div class="details-product">
-        <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+          <div class="containner-truck">
+            <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$70.500</p>
+          <p class="discount">10% OFF</p>
+          <h3 class="title">Samsung Galaxy S10</h3>
         </div>
-        <p class="price">$70.500</p>
-        <p class="discount">10% OFF</p>
-        <h3 class="title">Samsung Galaxy S10</h3>
       </div>
-    </div>
 
       <!-- Producto 8 -->
       <div class="product">
         <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv">
         <div class="details-product">
-        <div class="containner-truck">
-          <i class="fas fa-truck"></i>
+          <div class="containner-truck">
+            <i class="fas fa-truck"></i>
+          </div>
+          <p class="price">$23.200</p>
+          <p class="discount">5% OFF</p>
+          <h3 class="title">SmartTv Samsung 43"</h3>
         </div>
-        <p class="price">$23.200</p>
-        <p class="discount">5% OFF</p>
-        <h3 class="title">SmartTv Samsung 43"</h3>
       </div>
-    </div>
     </section>
   </main>
 
@@ -213,7 +215,16 @@
       <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </section>
   </footer>
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function (event) {
+      event.preventDefault(); // Evitar el envío del formulario para fines didácticos
 
+      var searchQuery = document.getElementById('searchInput').value;
+      console.log('Búsqueda realizada: ' + searchQuery);
+
+
+    });
+  </script>
 </body>
 
 </html>

@@ -34,3 +34,4 @@ app.post('/login', (req, res) => {
     console.log(req.body); // Imprimir datos del formulario en la consola para fines didácticos
     res.redirect('/');
 });
+
